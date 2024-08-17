@@ -1,0 +1,109 @@
+body,html{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+section, .row, .container{
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+.navbar-nav li{
+    padding: 0px 12px;
+}
+.navbar-nav li a:hover{
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.menu_active{
+    color: blue !important;
+}
+.section_3,footer{
+    background-color: #092e50;
+}
+.section_5{
+    background-color: #ececec;
+}
+.up_content{
+    top: 50%;
+}
+.nav-link{
+    color: black;
+}
+.active{
+    color: #3ea0f3;
+    text-decoration: underline;
+}
+.butn{
+        border-radius: 6px;
+        padding: 10px 33px;
+}
+@media screen and (max-width:1025px){
+    .menu li{ 
+            padding: 0px 0px;
+    }
+}
+.card_anim1 {
+    animation: card;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
+
+.carasoul_clr, .casoul_btn{
+    background-color: #092e50  !important;
+}
+.actv_text{
+    text-decoration: none;
+    color: white;
+}
+.nav-item{
+    display: flex;
+    align-items: center;
+}
+@keyframes card{
+        0%{
+            left: 0%;
+        }
+        100%{
+            left: 100%;
+        }
+}
+.card_anim2{
+    animation: card_2nd;
+    animation-duration: 1s;
+    animation-timing-function:ease-in;
+    animation-iteration-count: 2;
+}
+@keyframes card_2nd{
+    0%{
+
+        left: 0%;
+    }
+    100%{
+        left: 100%;
+    }
+    
+}
+.cardi_img:hover {
+    transform: rotate(20deg);
+}
+.sect_4{
+    animation: sect4;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}    
+
+@keyframes sect4{
+    0%{
+
+        left: 0%;
+    }
+    25%{
+        left: 100%;
+    }
+}             
+      
+
+

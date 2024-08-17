@@ -1,0 +1,392 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    padding: 0px 30px;
+}
+.nav_div{
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 10%;
+    align-items: center;
+}
+.ul_div{
+    display: flex;
+}
+.logo{
+    padding: 0;
+    margin: 0;
+}
+.btn{
+    padding: 10px 11px;
+    border-radius: 20px;
+}
+.ban_content {
+    position: absolute;
+    z-index: 2;
+    top: 60%;
+    left: 11%;
+    color: white;
+}
+p span{
+    color: #f67c57;
+}
+.section_2{
+    padding: 10% 12%;
+    display: flex;
+    justify-content:center ;
+    /* position: relative; */
+}
+.clr{
+    color: #f67c57;
+    border-left: 2px solid #f67c57;
+}
+.bf_card {
+    padding: 0% 2%;
+}
+.icon_card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 12px;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12% 0%;
+    border-bottom: 1px solid gray;
+}
+.flat {
+    padding: 0px 12px;
+}
+.card_main{
+    box-shadow: 10px 10px 5px #bdadad;
+}
+.section_3 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.img_upcontent {
+    position: absolute;
+    top: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+/* .contact{
+    position: absolute;
+    top: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+} */
+.img_up{
+    border-radius: 12px;
+}
+.sect4_div {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.ban_img{
+    width: 100%;
+}
+.img_down{
+    width: 100%;
+}
+.card_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffeee9;
+    border-radius: 12px;
+    position: relative;
+    margin-bottom: 2%;
+    padding: 2px;
+}
+.card_div .buil {
+    padding: 10% 10%;
+    margin: 0;
+}
+.clr_custom{
+    color: #f67c57;
+    margin: 0;
+}
+.card_div::after {
+    content: "";
+    background-color: #f35525;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: -6px;
+    border-radius: 25px;
+    top: -8px;
+}
+.img_up{
+    width: 80%;
+}
+.section_5{
+    padding: 6%;
+}
+.deal_div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.btn_deal{
+    padding: 10px 11px;
+    border-radius: 7px;
+    margin-right: 10px;
+    margin-bottom: 2%;
+}
+.pp{
+    padding: 8% 7%;
+    border-bottom: 1px solid #b4aaad;
+    color: #b4aaad;
+}
+.pp b{
+    color: black;
+    padding-left: 8%;
+}
+.lpp{
+    border: none;
+}
+.left{
+    border-radius: 12px;
+    /* border: 2px solid black; */
+    box-shadow: 10px 10px 5px #bdadad;
+}
+
+.deal_content{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.left{
+    width: 25%;
+}
+.info{
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.deal_imgdiv{
+    width: 55%;
+    padding: 0% 8%;
+}
+.deal_img{
+    width: 100%;
+}
+.info p{
+    line-height: 2;
+    color: #505094;
+}
+.cards_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.cards_price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cards_detail span{
+    padding-right: 2%;
+    line-height: 2;
+}
+.cards_img{
+    border-radius: 12px;
+}
+.cards_main{
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 2% 0%;
+}
+.cards{
+    margin-bottom: 4%;
+}
+.cards_btndiv{
+    text-align: center;
+    margin: 5% 0%;
+}
+.section_7{
+    position: relative;
+    /* display: flex; */
+}
+
+.contact_cnt{
+    text-align: center;
+}
+.form_div{
+    /* padding: 2% 2%; */
+    text-align: start;
+    background-color: white;
+    color: #b4aaad;
+    width: 100%;
+}
+label{
+    margin: 2% 2% ;
+}
+
+input[type=text], input[type=number], input[type=email], textarea {
+    width: 100%;
+    padding: 5% 5%;
+    margin: 6% 0%;
+    border-radius: 24px;
+    background-color: #f6f6f6;
+}
+.map_div{
+    display: flex;
+    
+}
+.contact{
+    text-align: center;
+    /* color: white; */
+}
+.form{
+    border-radius: 12px;
+    background-color: white;
+    padding: 4% 4%;
+    margin: 0% 4%;
+    color: black;
+    box-shadow: 10px 10px 20px #bdadad;
+}
+.form_btn{
+    margin: 2%;
+}
+.mapfrm_div{
+    padding: 2% 8%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.contact_mains {
+    position: absolute;
+    top: 15%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    color: white;
+}
+.mapteck{
+    border-radius: 12px;
+}
+footer p {
+    padding: 3% 11%;
+    background-color: black;
+    color: white;
+}
+.active,li:hover{
+    color: #f67c57;
+    cursor: pointer;
+}
+footer{
+    margin-top: 41%;
+}
+@media screen and (max-width:786px){
+    .img_upcontent{
+        top: 0%;
+    }
+    .img_upcontent p{
+        margin: 0;
+    }
+    .h1up{
+        font-size: 10px;
+        margin: 0;
+    }
+    .section_2{
+        display: flex;
+        flex-direction: column;
+    }
+    .section_2 div img{
+        width: 100%;
+    }
+    footer{
+        margin-top: 58%;
+    }
+}
+@media screen and (max-width:1170px){
+    .mapteck{
+        width: 500px;
+    }
+}
+@media screen and (max-width:1029px){
+    .mapteck{
+        width: 400px;
+        /* width: 300px; */
+    }
+    footer{
+        margin-top: 50%;
+    }
+}
+@media screen and (max-width:888px){
+    .mapteck{
+        width: 300px;
+        height: 250px;
+    }
+    .mapfrm_div{
+        padding: 2% 5%;
+    }
+    .contact_mains{
+        top: 0;
+    }
+    input[type=text], input[type=number], input[type=email], textarea{
+        padding: 5% 0%;
+    }
+    .deal_content{
+        flex-direction: column;
+    }
+    .left,.deal_imgdiv,.info{
+        width: 100%;
+        margin-bottom: 4%;
+        padding: 0%;
+    }
+    .sect4_div{
+        margin-top: 28%;
+    }
+    footer{
+        margin-top: 58%;
+    }
+}
+@media screen and (max-width:696px) {
+    footer{
+        margin-top: 251%;
+    }
+}
+@media screen and (max-width:1009px) {
+    ul li{
+        padding: 0px 14px;
+    }
+}
+@media screen and (max-width:846px) {
+    .ul_div button ,ul{
+        display: none;
+    }
+    
+}

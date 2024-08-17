@@ -1,0 +1,163 @@
+body{
+    font-size: 100%;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    padding-left: 2%;
+}
+h1,h2,h3{
+    font-weight: 800;
+}
+header{
+    background: url(https://www.free-css.com/assets/files/free-css-templates/preview/page296/neogym/assets/images/hero-bg.jpg);
+    background-repeat: no-repeatS;
+    color: white;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+}
+
+.choose_main{
+    background: url(https://www.free-css.com/assets/files/free-css-templates/preview/page296/neogym/assets/images/us-bg.jpg);
+    color: white;
+    padding: 6% 0%;
+}
+.more_section{
+    background: url(https://www.free-css.com/assets/files/free-css-templates/preview/page296/neogym/assets/images/healthy-bg.jpg);
+    color: white;
+}
+.train{
+    background: url(https://www.free-css.com/assets/files/free-css-templates/preview/page296/neogym/assets/images/trainer-bg.jpg);
+    color: white;
+}
+ul li {
+    list-style: none;
+    padding: 0px 20px;
+}
+
+.home {
+    text-decoration: underline #dc3545 3px;
+}
+
+.head {
+    text-align: center;
+    padding: 0% 10%;
+}
+
+.btn {
+    padding: 1% 2%;
+    margin-top: 3%;
+    margin-bottom: 0.5%;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.btn a ,.form_btn a{
+    text-decoration: none;
+    padding: 3% 0%;
+    color: white;
+}
+
+.choose {
+    padding: 2% 0%;
+    text-align: center;
+}
+
+.choose_div {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    text-align: center;
+    padding: 0% 2%;
+}
+
+.sect {
+    padding: 8% 3%;
+    text-align: center;
+}
+
+.images_div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_img img{
+    border-radius: 4%;
+}
+.icon_div {
+    padding: 2% 2%;
+    color: red;
+    background-color: white;
+    width: 50%;
+    margin: -8% 25%;
+    position: relative;
+    border-radius: 30px;
+}
+
+.form_div {
+    display: flex;
+    flex-direction: column;
+    padding: 0% 2%;
+}
+
+.contact_div {
+    display: flex;
+    background-color: #27223f;
+    color: white;
+}
+
+input[type=text], input[type=number], input[type=email], textarea{
+    width: 100%;
+    padding: 4% 2% ;
+    margin: 4%;
+}
+
+.footer_div {
+    display: flex;
+    justify-content: space-around;
+    padding: 5% 0%;
+    text-align: center;
+    background-color: #252233;
+    color: white;
+}
+
+.foot {
+    text-align: center;
+    padding: 2% 0% 10% 0%;
+}
+
+.form_btn {
+    text-align: end;
+}
+.form_button {
+    padding: 3% 10%;
+    margin-top: 3%;
+    background: #ff2953;
+    border: 1px;
+}
+.icon_div i {
+    font-weight: 800;
+    font-size: x-large;
+    padding: 1% 2%;
+}
+.las{
+    font-size: xx-large;
+}
+.contact_div div img{
+    height: 100%;
+}
+.btn:hover{
+    background-color: white;
+}
+.btn a:hover{
+    color: black;
+}
